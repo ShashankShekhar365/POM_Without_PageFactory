@@ -20,7 +20,7 @@ public class LoginPage {
 		driver.findElement(passwordField).clear();
 		driver.findElement(passwordField).sendKeys(username);
 		driver.findElement(loginButton).click();
-		Thread.sleep(5000000);
+		Thread.sleep(5000);
 	}
 
 //	public void enterUsername(String username) {
